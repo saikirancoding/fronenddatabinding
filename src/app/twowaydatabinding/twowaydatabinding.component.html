@@ -1,0 +1,12 @@
+<div>
+    <h2>two way databinding example</h2>
+
+    <input type="text" [(ngModel)]="title">  <!--two way databinding-->
+    <button (click)="getChange()">change title</button>
+</div>
+{{title}}
+
+<!--Interpolation-->
+<input type="text" value="{{name}}">
+
+<h2>{{name}}</h2>

@@ -1,0 +1,21 @@
+<h3>Property Binding example</h3>
+
+<button [disabled]="active">Add</button> <br>
+<input type="text" disabled={{active}} placeholder="Enter text" /><br><br>
+<input type="text" [disabled]="active" placeholder="Enter text" />
+
+<br>
+<div [innerHTML]="name">
+
+
+</div>
+<br>
+<div [ngStyle]="ob" [innerText]="name">
+
+
+
+</div>
+
+
+    <img [src]="imagePath" alt="">
+
